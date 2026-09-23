@@ -1,0 +1,56 @@
+*{ /* Para quitar el margen que dedja por defecto el navegador*/
+    margin: 0; /*margen experno*/
+    padding: 0; /*margen interno*/
+    box-sizing: border-box;
+}
+body{
+    font-size: 0;
+}
+header{
+    height: 180px;
+    background-color: #3943ff;
+}
+nav{
+    height: 80px;
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -40px;
+    background-color: #723872;
+}
+section{
+    background-color: #ffca39;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    }
+    #principal{
+        height: 200px;
+        width: 33%;
+        margin: 25px 15px 25px;
+        display: inline-block;
+        background-color: #372648;
+    }
+.general{
+    height: 260px;
+    margin-top: 25px;
+}
+    article{
+        width: 70%;
+        display: inline-block;
+        background-color: #3943ff;
+    }
+    aside{
+        margin-left: 2.5%;
+        width: 27.5%;
+        display: inline-block;
+        background-color: #ffca39;
+    }
+footer{
+    height: 60px;
+    background-color: #354ae9;
+    margin-top: 25px
+;
+}
+
